@@ -1,6 +1,6 @@
 import numpy as np
 with open("input") as f:
-    lines = [line for line in f.readlines()]
+    lines = f.readlines()
     elf = []
     sum = 0
     for i, line in enumerate(lines):

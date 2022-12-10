@@ -59,18 +59,18 @@ def p2():
 
         for idx, l in enumerate(lines):
             if "noop" in l:
-                yupeng = change(CRT)
-                if yupeng:
+                restart = change(CRT)
+                if restart:
                     CRT = init_CRT.copy()
                 cycle += 1
             else:
                 num = int(l.split(" ")[1])
-                yupeng = change(CRT)
-                if yupeng:
+                restart = change(CRT)
+                if restart:
                     CRT = init_CRT.copy()
                 cycle += 1
-                yupeng = change(CRT)
-                if yupeng:
+                restart = change(CRT)
+                if restart:
                     CRT = init_CRT.copy()
                 cycle += 1
                 X += num

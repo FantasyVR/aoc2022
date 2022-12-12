@@ -67,7 +67,6 @@ def p1():
             monkes.append(m)
 
         print("P1: ")
-        start round
         inspect_dic = {}
         for r in range(20):
             print(f"{r} -th round")
